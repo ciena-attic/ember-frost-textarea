@@ -23,7 +23,7 @@ ember install ember-frost-text-area
 ```
 
 ## API
-Coming soon
+Coming soon…
 
 ## Examples
 Coming soon

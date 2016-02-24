@@ -1,5 +1,5 @@
 {
-  "name": "ember-frost-text-area",
+  "name": "ember-frost-textarea",
   "version": "0.0.0",
   "description": "The default blueprint for ember-cli addons.",
   "directories": {
@@ -12,7 +12,7 @@
     "test": "npm run lint && ember test",
     "lint": "eslint *.js addon app config tests"
   },
-  "repository": "git@github.com:ciena-frost/ember-frost-text-area.git",
+  "repository": "git@github.com:ciena-frost/ember-frost-textarea.git",
   "engines": {
     "node": ">= 5.0.0"
   },
@@ -60,6 +60,7 @@
     "ember-computed-decorators": "^0.2.2",
     "ember-cli-htmlbars": "^1.0.1",
     "ember-cli-sass": "^5.2.0",
+    "ember-frost-button": "^1.1.0",
     "ember-frost-theme": "^1.0.1",
     "liquid-fire": "^0.22.0"
   },

@@ -23,10 +23,50 @@ ember install ember-frost-textarea
 ```
 
 ## API
-Coming soon…
+| Attribute | Type | Value | Description |
+| --------- | ---- | ----- | ----------- |
+| `autofocus` | `boolean` |`true`| puts autofocus on the object |
+|  |  |`false`| ***default***|
+| `classNameBindings` | `string` |`error`| shows the object in error state|
+| `disabled` | `boolean` |`true`| shows the object as disabled |
+|  |  |`false`| ***default***|
+| `readonly` | `boolean` |`true`| object is not editable |
+|  |  |`false`| ***default***|
+| `cols` | `integer` |`<num-of-cols>`| specifies the number of columns for the object |
+| `rows` | `integer` |`<num-of-rows>`| specifies the number of rows for the object |
+| `value` | `string` |`<textarea-text>`| default string that the object will display|
+| `on-click` | `string` |`<action-name>`| triggers associated action when text is entered|
 
 ## Examples
-Coming soon
+### autofocus
+```handlebars
+{{frost-textarea id="basic" autofocus=true}}
+```
+
+### classNameBindings - error
+```handlebars
+{{frost-textarea id="error" classNameBindings="error" }}
+```
+
+### disabled
+```handlebars
+{{frost-textarea id="disabled" disabled=true}}
+```
+
+### readonly and value
+```handlebars
+{{frost-textarea id="read-only" readonly=true value="Read only textarea"}}
+```
+
+### cols and rows
+```handlebars
+{{frost-textarea id="columns-rows" cols="80" rows="6"}}
+```
+
+### on-click
+```handlebars
+{{frost-textarea id="action" on-input=(action "update")}}
+```
 
 ## Development
 ### Setup

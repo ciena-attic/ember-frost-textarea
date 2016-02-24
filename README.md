@@ -1,15 +1,15 @@
-[ci-img]: https://img.shields.io/travis/ciena-frost/ember-frost-text-area.svg "Travis CI Build Status"
-[ci-url]: https://travis-ci.org/ciena-frost/ember-frost-text-area
+[ci-img]: https://img.shields.io/travis/ciena-frost/ember-frost-textarea.svg "Travis CI Build Status"
+[ci-url]: https://travis-ci.org/ciena-frost/ember-frost-textarea
 
-[cov-img]: https://img.shields.io/coveralls/ciena-frost/ember-frost-text-area.svg "Coveralls Code Coverage"
-[cov-url]: https://coveralls.io/github/ciena-frost/ember-frost-text-area
+[cov-img]: https://img.shields.io/coveralls/ciena-frost/ember-frost-textarea.svg "Coveralls Code Coverage"
+[cov-url]: https://coveralls.io/github/ciena-frost/ember-frost-textarea
 
-[npm-img]: https://img.shields.io/npm/v/ember-frost-text-area.svg "NPM Version"
-[npm-url]: https://www.npmjs.com/package/ember-frost-text-area
+[npm-img]: https://img.shields.io/npm/v/ember-frost-textarea.svg "NPM Version"
+[npm-url]: https://www.npmjs.com/package/ember-frost-textarea
 
 [![Travis][ci-img]][ci-url] [![Coveralls][cov-img]][cov-url] [![NPM][npm-img]][npm-url]
 
-# ember-frost-text-area
+# ember-frost-textarea
 the drop-down select widget to rule them all
 
  * [Installation](#Installation)
@@ -19,7 +19,7 @@ the drop-down select widget to rule them all
 
 ## Installation
 ```
-ember install ember-frost-text-area
+ember install ember-frost-textarea
 ```
 
 ## API
@@ -31,13 +31,13 @@ Coming soon
 ## Development
 ### Setup
 ```
-git clone git@github.com:ciena-frost/ember-frost-text-area.git
-cd ember-frost-text-area
+git clone git@github.com:ciena-frost/ember-frost-textarea.git
+cd ember-frost-textarea
 npm install && bower install
 ```
 
 ### Development Server
-A dummy application for development is available under `ember-frost-text-area/tests/dummy`.
+A dummy application for development is available under `ember-frost-textarea/tests/dummy`.
 To run the server run `ember server` (or `npm start`) from the root of the repository and
 visit the app at http://localhost:4200.
 

@@ -3,7 +3,7 @@ import {describeComponent, it} from 'ember-mocha'
 import hbs from 'htmlbars-inline-precompile'
 
 describeComponent(
-  'frost-text-area',
+  'frost-textarea',
   'Integration: EmberFrostTextAreaComponent',
   {
     integration: true
@@ -14,12 +14,12 @@ describeComponent(
       // Handle any actions with this.on('myAction', function (val) { ... })
       // Template block usage:
       // this.render(hbs`
-      //   {{#frost-text-area}}
+      //   {{#frost-textarea}}
       //     template content
-      //   {{/frost-text-area}}
+      //   {{/frost-textarea}}
       // `)
 
-      this.render(hbs`{{frost-text-area}}`)
+      this.render(hbs`{{frost-textarea}}`)
       expect(this.$()).to.have.length(1)
     })
   }

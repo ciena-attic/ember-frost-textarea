@@ -16,7 +16,7 @@ install:
 - npm install
 - bower install
 after_success:
-- sed -i -- 's/SF:ember-frost-text-area\/\(.*\)/SF:addon\/\1.js/' coverage/lcov.info
+- sed -i -- 's/SF:ember-frost-textarea\/\(.*\)/SF:addon\/\1.js/' coverage/lcov.info
   && rm -f coverage/lcov.info--
 - cat coverage/lcov.info | coveralls
 addons:

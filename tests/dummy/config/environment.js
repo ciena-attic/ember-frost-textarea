@@ -39,7 +39,7 @@ module.exports = function (environment) {
   }
 
   if (environment === 'production') {
-    ENV.baseURL = '/frost-text-area'
+    ENV.baseURL = '/frost-textarea'
     ENV.isDemo = true
     ENV['ember-cli-mirage'] = {
       enabled: true

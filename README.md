@@ -40,32 +40,32 @@ ember install ember-frost-textarea
 ## Examples
 ### autofocus
 ```handlebars
-{{frost-textarea id="basic" autofocus=true}}
+{{frost-textarea id='basic' autofocus=true}}
 ```
 
 ### classNameBindings - error
 ```handlebars
-{{frost-textarea id="error" classNameBindings="error" }}
+{{frost-textarea id='error' classNameBindings='error'}}
 ```
 
 ### disabled
 ```handlebars
-{{frost-textarea id="disabled" disabled=true}}
+{{frost-textarea id='disabled' disabled=true}}
 ```
 
 ### readonly and value
 ```handlebars
-{{frost-textarea id="read-only" readonly=true value="Read only textarea"}}
+{{frost-textarea id='read-only' readonly=true value='Read only textarea'}}
 ```
 
 ### cols and rows
 ```handlebars
-{{frost-textarea id="columns-rows" cols="80" rows="6"}}
+{{frost-textarea id='columns-rows' cols='80' rows='6'}}
 ```
 
 ### on-click
 ```handlebars
-{{frost-textarea id="action" on-input=(action "update")}}
+{{frost-textarea id='action' on-input=(action 'update')}}
 ```
 
 ## Development

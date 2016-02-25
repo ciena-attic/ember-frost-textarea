@@ -27,15 +27,15 @@ ember install ember-frost-textarea
 | --------- | ---- | ----- | ----------- |
 | `autofocus` | `boolean` |`true`| puts autofocus on the object |
 |  |  |`false`| ***default***|
-| `classNameBindings` | `string` |`error`| shows the object in error state|
+| `classNameBindings` | `string` |`error`| shows the object in error state |
 | `disabled` | `boolean` |`true`| shows the object as disabled |
 |  |  |`false`| ***default***|
 | `readonly` | `boolean` |`true`| object is not editable |
 |  |  |`false`| ***default***|
 | `cols` | `integer` |`<num-of-cols>`| specifies the number of columns for the object |
 | `rows` | `integer` |`<num-of-rows>`| specifies the number of rows for the object |
-| `value` | `string` |`<textarea-text>`| default string that the object will display|
-| `on-click` | `string` |`<action-name>`| triggers associated action when text is entered|
+| `value` | `string` |`<textarea-text>`| default string that the object will display |
+| `on-click` | `string` |`<action-name>`| triggers associated action when text is entered |
 
 ## Examples
 ### autofocus

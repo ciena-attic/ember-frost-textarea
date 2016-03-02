@@ -2,6 +2,7 @@
   "name": "ember-frost-textarea",
   "version": "1.0.0",
   "description": "The default blueprint for ember-cli addons.",
+  "frostGuideDirectory": "ui-components/input-controls/text-area",
   "directories": {
     "doc": "doc",
     "test": "tests"

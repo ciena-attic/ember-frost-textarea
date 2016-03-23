@@ -23,12 +23,12 @@
     }
 
     &:focus {
-      margin: -1px !important;
-      border: 2px solid $frost-color-input-focus-border !important;
+      margin: -1px;
+      border: 2px solid $frost-color-input-focus-border;
       outline: none;
     }
 
-    &:hover:enabled:read-write {
+    &:hover:enabled:read-write:not(:focus) {
       border: 1px solid $frost-color-input-focus-border;
       outline: none;
     }

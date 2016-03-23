@@ -10,9 +10,9 @@ export default Ember.Component.extend({
   showClear: false,
 
   oninput: Ember.on('input', function (e) {
-    if (_.isFunction(this.attrs['on-input'])) {
+    if (_.isFunction(this.attrs['onInput'])) {
       Ember.run.next(this, function () {
-        this.attrs['on-input']({
+        this.attrs['onInput']({
           id: this.get('id'),
           value: e.target.value
         })

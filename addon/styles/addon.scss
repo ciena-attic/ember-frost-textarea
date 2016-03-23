@@ -6,7 +6,6 @@
   &.error > textarea {
     border: 1px solid $frost-color-input-error-border;
     color: $frost-color-danger;
-
   }
 
   > textarea {
@@ -23,12 +22,14 @@
     }
 
     &:focus {
-      border: 1px solid $frost-color-input-focus-border;
+      margin: -1px;
+      border: 2px solid $frost-color-input-focus-border;
       outline: none;
     }
 
     &:hover:enabled:read-write {
-      border: 1px solid $frost-color-input-focus-border;
+      margin: -1px;
+      border: 2px solid $frost-color-input-focus-border;
       outline: none;
     }
 
@@ -43,7 +44,7 @@
   }
 
   .clear {
-    margin: 5px 0 0 -35px;
+    margin: 3px 0 0 -37px;
     width: 35px;
     > svg {
       height: 26px;

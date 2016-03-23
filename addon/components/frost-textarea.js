@@ -26,7 +26,7 @@ export default Ember.Component.extend({
     }
   }),
 
-   actions: {
+  actions: {
     clear: function () {
       this.set('value', '')
       this.$('textarea').focus()
